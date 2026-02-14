@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Book Recommendation System
 ### Check Out Our Blog On Book Recommendation System Here:
 <a href=https://ashima96.medium.com/building-a-book-recommendation-system-a98c58a4f1bb>Book Recommendation System</a>
@@ -79,3 +80,6 @@ A hybrid recommendation system was built using the combination of both content-b
 ### 4. Acknowledgments:
 
 Machine Learning Monsoon 2020 (CSE543) @IIIT Delhi
+=======
+# BookRec
+>>>>>>> 2e32fb0082f469091139f07aced77a436fae27a2
