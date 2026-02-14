@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 # Book Recommendation System
-### Check Out Our Blog On Book Recommendation System Here:
-<a href=https://ashima96.medium.com/building-a-book-recommendation-system-a98c58a4f1bb>Book Recommendation System</a>
+
 ## Description:
 <p>A Book Recommendation System which recommends the users a selection of books based on their interests.</p>
 <p>Data used for this project was taken from <a href=http://www2.informatik.uni-freiburg.de/~cziegler/BX/>here</a></p>
@@ -77,9 +76,7 @@ A hybrid recommendation system was built using the combination of both content-b
 * numpy, scipy- number python library
 * pandas - data handling library
 
-### 4. Acknowledgments:
 
-Machine Learning Monsoon 2020 (CSE543) @IIIT Delhi
 =======
 # BookRec
 >>>>>>> 2e32fb0082f469091139f07aced77a436fae27a2
