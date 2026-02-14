@@ -77,6 +77,4 @@ A hybrid recommendation system was built using the combination of both content-b
 * pandas - data handling library
 
 
-=======
-# BookRec
->>>>>>> 2e32fb0082f469091139f07aced77a436fae27a2
+
