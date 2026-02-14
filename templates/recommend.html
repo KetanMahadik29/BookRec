@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommend Books</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<nav>
+    <h2>BookRec</h2>
+    <div>
+        <a href="home">Home</a>
+        <a href="login">Logout</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Find Your Next Book</h1>
+
+    <form method="POST">
+    <input type="text" name="book" placeholder="Enter Book Name" required>
+    <button type="submit">Recommend</button>
+</form>
+
+
+</div>
+
+</body>
+</html>

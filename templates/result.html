@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results - Book Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<nav>
+    <h2>BookRec</h2>
+    <div>
+        <a href="recommend">Back</a>
+        <a href="home">Home</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Recommended Books</h1>
+
+    
+{% for book in books %}
+<div class="card">
+    <h3>🔖 {{ book }}
+</h3>
+</div>
+{% endfor %}
+
+
+</div>
+
+</body>
+</html>

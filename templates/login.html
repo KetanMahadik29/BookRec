@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Book Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<nav>
+    <h2>BookRec</h2>
+    <div>
+        <a href="signup">Sign Up</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Login</h1>
+
+    <form method="POST">
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <input type="password" name="password" placeholder="Enter Password" required>
+    <button type="submit">Login</button>
+</form>
+
+
+    <p>New user? <a href="signup">Create Account</a></p>
+</div>
+
+</body>
+</html>

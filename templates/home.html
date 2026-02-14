@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Book Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<nav>
+    <h2>BookRec</h2>
+    <div>
+        <a href="recommend">Recommend</a>
+        <a href="login">Logout</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Welcome to Book Recommendation System 📚</h1>
+    <p style="text-align:center;">
+        Discover books you’ll love based on your interests.
+    </p>
+
+    <button onclick="window.location.href='recommend'">
+        Get Recommendations
+    </button>
+</div>
+
+</body>
+</html>
