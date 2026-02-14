@@ -101,12 +101,13 @@ def recommend():
     if request.method == "POST":
         book_name = request.form["book"]
 
-        # ✅ Auto Hybrid Recommendation (All Algorithms)
+        # ✅ KNN Recommendation + Popularity fallback
         recommendations = recommender.recommend_books(book_name)
 
         return render_template("result.html", books=recommendations)
 
     return render_template("recommend.html")
+
 
 
 # ----------- LOGOUT ----------- #
