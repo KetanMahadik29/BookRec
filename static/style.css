@@ -90,6 +90,17 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;     /* logo size */
+    height: 40px;
+    border-radius: 8px;
+}
 
 /* Recommendation Cards */
 .card {

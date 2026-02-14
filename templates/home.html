@@ -5,14 +5,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
 
+
+
 </head>
 <body>
 
 <nav>
-    <h2>BookRec</h2>
+    <div class="logo-title">
+        <img src="{{ url_for('static', filename='images/logo.jpg') }}" class="logo">
+        <h2>BookRec</h2>
+    </div>
+
     <div>
-        <a href="recommend">Recommend</a>
-        <a href="login">Logout</a>
+        <a href="/recommend">recommend</a>
+        <a href="/login">Login</a>
     </div>
 </nav>
 
